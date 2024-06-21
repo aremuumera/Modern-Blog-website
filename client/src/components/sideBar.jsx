@@ -14,7 +14,7 @@ const SideBar = () => {
         }
      useEffect(() => {
 
-        fetch('http://localhost:5000/blogs')
+        fetch('https://modern-blog-website-backend.vercel.app/blogs')
             .then((response) => response.json())
             .then((data) => setPopularBlogs(data))
             .catch((error) => console.error('Error fetching blogs:', error));

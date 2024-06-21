@@ -15,7 +15,7 @@ const BlogUi = () => {
 
     useEffect(() => {
         async function fetchBlogs() {
-            let url = `http://localhost:5000/blogs/?page=${currentPage}&limit=${pageSize}`;
+            let url = `https://modern-blog-website-backend.vercel.app/blogs/?page=${currentPage}&limit=${pageSize}`;
 
             // modifying the url
             if(selectCategory){
