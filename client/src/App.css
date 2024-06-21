@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.active{
+  @apply text-[#676767] underline underline-offset-4
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  scroll-behavior: smooth!important;
+ box-sizing: border-box;
+}
+html, body{
+  scroll-behavior: smooth !important;
+}
+h1, h2, h3, h4, h5, h6, p{
+  font-family: "Inter", sans-serif;
+
+  
+}
+.pagination .activePagination{
+  background: #000;
+  border-radius: 4px;
+  color: white !important;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+}
+.pagination li.activePagination:hover{
+  color: #fff;
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.pagination li{
+  margin: 0 5px;
+}
+.pagination .pageBtn{
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+}
+
+.pagination .pageBtn:hover{
+  background-color: #5e5e5e;
+}
+
+.active-button{
+  color: #fff !important;
+  background:#000 !important;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
